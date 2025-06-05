@@ -32,9 +32,24 @@ Before installing **PortHunter**, make sure you have the necessary dependencies:
 sudo apt install nmap xsltproc wget python3 lolcat figlet xclip firefox-esr -y
 ```  
 
-📢 **Important Notes:**  
+
+## 📢 Important Notes  
+
 - **PortHunter depends on Firefox.** Ensure it is installed before running the script.  
 - The script **must be executed as a normal user**—running it as `root` will cause errors.  
+- **Troubleshooting:**  
+  - If something doesn't work, try **modifying the `sleep` before terminating the Python server**. This can improve process stability.  
+  - You can also **install the required packages manually** if some do not install correctly with the Script.  
+
+
+
+## ✅ Tested Operating Systems  
+
+The following operating systems have been successfully tested with **PortHunter**:
+
+- **Kali Linux**  
+- **Ubuntu**  
+- **Linux Mint**  
 
 
 ## ⚙️ Installation  
