@@ -1,0 +1,4 @@
+figlet
+lolcat
+xsltproc
+xclip
